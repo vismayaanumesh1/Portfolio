@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+
+            <div class="logo">
+                MY PORTFOLIO
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- Home / Hero Section -->
+        <section id="home" class="hero">
+
+            <div class="hero-text">
+
+                <p>Hello, I'm</p>
+
+                <h1>Vismaya Anumesh</h1>
+
+                <h2>Student & Aspiring Software Engineer</h2>
+
+                <p>
+                    Welcome to my personal portfolio.
+                    I am interested in technology, programming,
+                    web development and learning new things.
+                </p>
+
+                <a href="#contact" class="button">
+                    Contact Me
+                </a>
+
+            </div>
+
+
+            <div class="hero-image">
+
+                <!-- Put your photo inside the images folder -->
+                <img src="./me.jpg (2).jpeg" alt="Photo of Your Name">
+
+            </div>
+
+        </section>
+
+
+        <!-- About Me Section -->
+        <section id="about" class="about">
+
+            <h2>About Me</h2>
+
+            <p>
+               Hi, I'm Vismaya, a Computer Science and Artificial Intelligence student at Scaler School of Technology. I’m excited to explore different areas of technology and learn new things along the way.
+
+I completed my schooling from Delhi Public School Bangalore East, where I studied from 9th to 12th grade. I’ve also had the opportunity to live in Hyderabad and Ahmedabad, which has given me the chance to experience different places and environments.
+
+Outside of academics, I enjoy dancing, reading, and playing the violin. I’m looking forward to developing my technical skills, working on interesting projects, and discovering where my interests in technology take me.
+            </p>
+
+            
+
+
+            <h3>My Interests</h3>
+
+            <ul>
+                <li>Web Development</li>
+                <li>Dance</li>
+                <li>Photography</li>
+                <li>Violin</li>
+                <li>Listening to Music</li>
+            </ul>
+
+            <!-- Learning Journey Section -->
+            <div id="journey" class="journey">
+
+                <h2>My Learning Journey</h2>
+
+                <ol>
+                    <li>Started learning HTML</li>
+                    <li>Learned CSS fundamentals</li>
+                    <li>Built my first webpage</li>
+                    <li>Started learning JavaScript</li>
+                </ol>
+
+            </div>
+
+        </section>
+
+
+        <!-- Education Section -->
+        <section id="education" class="education">
+
+            <h2>Education</h2>
+
+            <table>
+
+                <thead>
+
+                    <tr>
+                        <th>Qualification</th>
+                        <th>Institution</th>
+                        <th>Year</th>
+                       
+                    </tr>
+
+                </thead>
+
+
+                <tbody>
+
+                    <tr>
+                        <td>10th</td>
+                        <td>DPS Bangalore East</td>
+                        <td>2024</td>
+                       
+                    </tr>
+
+                    <tr>
+                        <td>12th</td>
+                        <td>DPS Bangalore East</td>
+                        <td>2026</td>
+                      
+                    </tr>
+
+                    <tr>
+                        <td>Degree</td>
+                        <td>Scaler School of technology</td>
+                        <td>2026 - Present</td>
+                       
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+
+            <h2>My Skills</h2>
+
+            <div class="skills-container">
+
+                <div class="skill-card">
+
+                    <h3>HTML</h3>
+
+                    <p>
+                        Building structured webpages.
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <h3>CSS</h3>
+
+                    <p>
+                        Styling and designing webpages.
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <h3>JavaScript</h3>
+
+                    <p>
+                        Adding interactivity to websites.
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <h3>Java</h3>
+
+                    <p>
+                        Programming and problem solving.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+       
+
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+
+            <h2>Contact Me</h2>
+
+            <form>
+
+
+                <!-- Name -->
+                <div class="form-group">
+
+                    <label for="name">
+                        Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your name"
+                        required>
+
+                </div>
+
+
+                <!-- Email -->
+                <div class="form-group">
+
+                    <label for="email">
+                        Email
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        required>
+
+                </div>
+
+
+                <!-- Dropdown -->
+                <div class="form-group">
+
+                    <label for="purpose">
+                        Purpose
+                    </label>
+
+                    <select id="purpose" name="purpose">
+
+                        <option value="">
+                            Select an option
+                        </option>
+
+                        <option value="question">
+                            General Question
+                        </option>
+
+                        <option value="collaboration">
+                            Collaboration
+                        </option>
+
+                        <option value="project">
+                            Project Discussion
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <!-- Radio Buttons -->
+                
+
+                <!-- Checkboxes -->
+                <fieldset>
+
+                    <legend>
+                        Topics You Are Interested In
+                    </legend>
+
+
+                    <label>
+                        <input
+                            type="checkbox"
+                            name="topic"
+                            value="web">
+
+                        Web Development
+                    </label>
+
+
+                    <label>
+                        <input
+                            type="checkbox"
+                            name="topic"
+                            value="programming">
+
+                        Programming
+                    </label>
+
+
+                    <label>
+                        <input
+                            type="checkbox"
+                            name="topic"
+                            value="design">
+
+                        Design
+                    </label>
+
+                </fieldset>
+
+
+                <!-- Message -->
+                <div class="form-group">
+
+                    <label for="message">
+                        Message
+                    </label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="6"
+                        placeholder="Write your message here..."></textarea>
+
+                </div>
+
+
+                <!-- Submit -->
+                <button type="submit">
+                    Send Message
+                </button>
+
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+
+      
+
+
+        <div class="social-links">
+
+            <a href="https://github.com/vismayaanumesh1" target="_blank">
+                GitHub
+            </a>
+
+            <a href="https://www.linkedin.com/in/vismaya-anumesh-12607a41b?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">
+                LinkedIn
+            </a>
+
+
+
+        </div>
+
+    </footer>
+
+
+    <!-- Back To Top Button -->
+    <a href="#home" class="back-to-top">
+        ↑
+    </a>
+
+
+</body>
+
+</html>
